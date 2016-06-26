@@ -1,0 +1,25 @@
+###### 1. 更新系统 & 安装显卡驱动 ######
+
+###### 2. 进行必要配置 ######
+1) 自定义DHCP网络的DNS Server IP地址：
+sudo gedit /etc/dhcp/dhclient.conf
+#prepend domain-name-servers 127.0.0.1;
+prepend domain-name-servers 114.114.114.114;  
+prepend domain-name-servers 180.76.76.76;  
+
+###### 3. 安装必要软件 ######
+sudo add-apt-repository ppa:webupd8team/sublime-text-3       
+sudo add-apt-repository ppa:nilarimogard/webupd8      
+sudo add-apt-repository ppa:numix/ppa
+sudo add-apt-repository ppa:synapse-core/testing
+sudo add-apt-repository ppa:noobslab/icons
+sudo add-apt-repository ppa:webupd8team/y-ppa-manager
+sudo add-apt-repository ppa:wiznote-team
+sudo add-apt-repository ppa:saiarcot895/myppa
+sudo add-apt-repository ppa:mitya57
+sudo add-apt-repository ppa:costales/anoise
+sudo add-apt-repository ppa:zeal-developers/ppa
+
+sh ./install.sh
+
+###### 4. 安装配置Shadowsocks ######

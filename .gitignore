@@ -1,0 +1,7 @@
+dotfiles/*
+etc/*
+fonts/*
+oh-my-zsh/*
+UbuntuShell/bin/*
+UbuntuShell/deb/*
+spacemacs.d/*

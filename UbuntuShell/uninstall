@@ -1,0 +1,15 @@
+sudo apt-fast install valgrind -y
+sudo apt-fast install kdevelop -y
+sudo apt-fast install autotools -y
+sudo apt-fast install w3m -y
+sudo apt-fast install liferea -y
+sudo apt-fast install shutter -y
+sudo apt-fast install gnome-osd-client -y
+sudo apt-fast install workrave -y
+sudo apt-fast install aircrack-ng -y
+sudo apt-fast install ctags -y
+sudo apt-fast install i8tktils -y
+sudo apt-fast install aptitude -y
+sudo apt-fast install libjpeg62:i386 -y
+sudo apt-fast install searchmonkey -y
+sudo apt-fast install arronax -y
