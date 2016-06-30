@@ -99,7 +99,7 @@ alias mod="rexmodmap ~/.Xmodmap"
 alias ramdisk="mkdir ~/RamDisk & sudo mount -t tmpfs -o size=1G,mode=0777 tmpfs ~/RamDisk/"
 alias shut="sh ~/dotfiles/Shell/shutdown.sh"
 alias sd="sh ~/dotfiles/Shell/sd.sh"
-alias resd="sh ~/dotfiles/Shell/shutdown.sh & sudo shutdown -r now"
+alias resd="sh ~/dotfiles/Shell/shutdown.sh ; sudo shutdown -r now"
 alias shadow="nohup sh ~/dotfiles/Shell/shadow.sh &"
 alias banwagong="ssh -p 27097  root@104.224.164.120"
 alias ssh_ss="ssh -p 27353 root@23.105.193.244"
@@ -126,5 +126,6 @@ alias del="rm -i"
 alias kali="ssh -p 2233 root@127.0.0.1"
 alias e='(emacsclient -a "" -c &)'
 alias es='emacsclient -a "" -t '
+alias emacs_update="/home/pengc825/dotfiles/Shell/update_spacemacs.sh ; cd ~/Spacemacs"
 #export ALTERNATE_EDITOR=""
 # ------------------------- 自定义 Alias 命令 -------------------------
